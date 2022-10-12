@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+ 
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch chrome against localhost",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**/*.js",
+        "<node_internals>/**",
+        "<node_internals>/**/*.js",
+        "<node_internals>/**/*.ts",
+        "<node_internals>/**/*.mjs",
+        "${workspaceFolder}/node_modules/**/*.mjs",
+        "${workspaceFolder}/webpack/**/*.js",
+        "${workspaceFolder}/webpack/**/*.ts",
+        "webpack/**/*.js",
+        "webpack/**/*.ts",
+        "<node_internals>\\**\\*.js",
+        "${workspaceFolder}\\node_modules\\**\\*.js",
+        "${workspaceFolder}/node_modules/webpack/**/*.js",
+
+      ]
+ 
+    }
+  ]
+}
+ 
+
